@@ -1,0 +1,67 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: @gray-lightest;
+}
+
+//
+// Button
+// --------------------------------------------------
+
+.button,
+button,
+input[type="button"],
+input[type="submit"] {
+  .btn();
+  .btn-default();
+}
+
+//
+// Form
+// --------------------------------------------------
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  .form-control();
+}
+
+textarea {
+  max-width: 100%;
+  min-height: @line-height-computed * 5;
+}
+
+//
+// Typo
+// --------------------------------------------------
+
+.page-header {
+  padding: 0 0 @line-height-computed;
+  margin: 0 0 (@line-height-computed * 2);
+
+  .page-title {
+    margin: 0;
+    text-transform: uppercase;
+    color: @gray-light;
+    font-size: @font-size-small;
+  }
+}

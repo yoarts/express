@@ -1,0 +1,213 @@
+# Copyright (C) 2015 YoArts
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Express 1.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2015-04-05 07:52:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.1\n"
+
+#: 404.php:9 release/express/404.php:9
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:12 release/express/404.php:12
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: 404.php:17 release/express/404.php:17
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:32 release/express/404.php:32
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:15 comments.php:27 release/express/comments.php:15
+#: release/express/comments.php:27
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:16 comments.php:28 release/express/comments.php:16
+#: release/express/comments.php:28
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:17 comments.php:29 release/express/comments.php:17
+#: release/express/comments.php:29
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:38 release/express/comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:3 release/express/content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:9 release/express/content-none.php:9
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:13 release/express/content-none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:18 release/express/content-none.php:18
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content.php:21 content.php:25 release/express/content.php:21
+#: release/express/content.php:25
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:28 page.php:17 release/express/content.php:28
+#: release/express/page.php:17 release/express/single.php:21 single.php:21
+msgid "Pages:"
+msgstr ""
+
+#: content.php:38 functions.php:93 release/express/content.php:38
+#: release/express/functions.php:93 release/express/single.php:29 single.php:29
+msgid ", "
+msgstr ""
+
+#: content.php:42 release/express/content.php:42 release/express/single.php:33
+#: single.php:33
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:48 release/express/content.php:48
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:48 release/express/content.php:48
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:48 release/express/content.php:48
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:5 release/express/footer.php:5
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:5 release/express/footer.php:5
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:5 release/express/footer.php:5
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: footer.php:5 release/express/footer.php:5
+msgid "Free Responsive Magazine WordPress Theme"
+msgstr ""
+
+#: functions.php:13 release/express/functions.php:13
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:57 release/express/functions.php:57
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:82 release/express/functions.php:82
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
+#: functions.php:95 release/express/functions.php:95
+msgid "<span class=\"categories-links\"> in %1$s</span>"
+msgstr ""
+
+#: header.php:18 release/express/header.php:18
+msgid "Toggle navigation"
+msgstr ""
+
+#: header.php:30 release/express/header.php:30
+msgid "RSS"
+msgstr ""
+
+#: header.php:32 release/express/header.php:32 release/express/searchform.php:3
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: inc/customizer.php:10 release/express/inc/customizer.php:10
+msgid "Site Logo"
+msgstr ""
+
+#: inc/customizer.php:21 release/express/inc/customizer.php:21
+msgid "Site Favicon"
+msgstr ""
+
+#: inc/customizer.php:27 release/express/inc/customizer.php:27
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:40 release/express/inc/customizer.php:40
+msgid "Global Font Family"
+msgstr ""
+
+#: inc/customizer.php:63 release/express/inc/customizer.php:63
+msgid "Heading Font Family"
+msgstr ""
+
+#: release/express/searchform.php:4 searchform.php:4
+msgid "Search for:"
+msgstr ""
+
+#: release/express/searchform.php:6 searchform.php:6
+msgid "<i class=\"fa fa-search\"></i>"
+msgstr ""
+
+#: release/express/sidebar.php:9 sidebar.php:9
+msgid "Archives"
+msgstr ""
+
+#: release/express/sidebar.php:16 sidebar.php:16
+msgid "Meta"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Express"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.yoarts.com/free-responsive-magazine-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Express is a Free Responsive Magazine WordPress Theme with quiet simply "
+"design, your readers would have the friendly feeling which helps them to "
+"focus on “reading” content than “looking” your blog."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YoArts"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.yoarts.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""

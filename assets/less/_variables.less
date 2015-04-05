@@ -1,0 +1,54 @@
+@fa-font-path:        "../../assets/fonts";
+
+@gray-darker:            #222;
+@gray-dark:              #333;
+@gray:                   #666;
+@gray-light:             #999;
+@gray-lighter:           #eee;
+@gray-lightest:          #f9f9f9;
+
+@text-color: @gray;
+
+@grid-gutter-width:      40px;
+
+@border-radius-base:        3px;
+@border-radius-large:       4px;
+@border-radius-small:       2px;
+
+@headings-font-weight:    bold;
+@headings-color:          @gray-dark;
+
+// Small screen / tablet
+@container-tablet:             ((720px + @grid-gutter-width));
+//** For `@screen-sm-min` and up.
+@container-sm:                 @container-tablet;
+
+// Medium screen / desktop
+@container-desktop:            ((940px + @grid-gutter-width));
+//** For `@screen-md-min` and up.
+@container-md:                 @container-desktop;
+
+// Large screen / wide desktop
+@container-large-desktop:      ((1182px + @grid-gutter-width));
+//** For `@screen-lg-min` and up.
+@container-lg:                 @container-large-desktop;
+
+//** Point at which the navbar becomes uncollapsed.
+@grid-float-breakpoint:     @screen-md-min;
+
+//** Point at which the navbar begins collapsing.
+@grid-float-breakpoint-max: (@grid-float-breakpoint - 1);
+
+// Basics of a navbar
+@navbar-default-color:             #fff;
+@navbar-default-bg:                @brand-primary;
+@navbar-default-border:            rgba(255,255,255,.1);
+
+// Navbar links
+@navbar-default-link-color:                rgba(255,255,255,.5);
+@navbar-default-link-hover-color:          #fff;
+@navbar-default-link-hover-bg:             transparent;
+@navbar-default-link-active-color:         #fff;
+@navbar-default-link-active-bg:            rgba(0,0,0,.1);
+@navbar-default-link-disabled-color:       #ccc;
+@navbar-default-link-disabled-bg:          transparent;
