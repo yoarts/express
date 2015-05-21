@@ -1,9 +1,9 @@
 {
   "name": "express",
-  "version": "1.0.1",
-  "homepage": "http://www.yoarts.com/product/express",
+  "version": "1.0.2",
+  "homepage": "http://www.yoarts.com",
   "authors": [
-    "Thanh Luu <thanhlt90@gmail.com>"
+    "YoArts <hi@yoarts.com>"
   ],
   "license": "GPL-3.0+",
   "private": true,
@@ -13,6 +13,7 @@
   ],
   "dependencies": {
     "fontawesome": "4.3.0",
-    "bootstrap": "3.3.2"
+    "bootstrap": "3.3.2",
+    "modernizr": "^2.8.3"
   }
 }

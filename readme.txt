@@ -28,6 +28,7 @@ Express is built with the following resources:
 Bootstrap
  - http://getbootstrap.com/
  - Copyright: @mdo: twitter.com/mdo and @fat: twitter.com/fat
+ - Code licensed under MIT License: https://github.com/twbs/bootstrap/blob/master/LICENSE
 
 FontAwesome
  - http://fortawesome.github.io/Font-Awesome/
@@ -35,8 +36,15 @@ FontAwesome
  - Font Awesome licensed under SIL OFL 1.1: http://scripts.sil.org/OFL
  - Code licensed under MIT License: http://opensource.org/licenses/mit-license.html
 
+Images:
+ - https://unsplash.com
+
 Changelog
 ----
+1.0.2
+* Add Credits & Copyright information
+* Bug fix & Improvement
+
 1.0.1
 * Bug fix & Improvement
 

@@ -14,10 +14,10 @@
 	<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-toggle" data-toggle="collapse" data-target=".mainnav">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".mainnav">
 					<span class="sr-only"><?php _e( 'Toggle navigation', 'express' ); ?></span>
 					<i class="fa fa-bars"></i>
-				</a>
+				</button>
 			</div>
 
 			<nav class="collapse navbar-collapse mainnav">
@@ -42,7 +42,7 @@
 	<header class="header" role="banner">
 		<div class="container">
 			<h1>
-				<a href="<?php echo home_url(); ?>/">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php $site_logo = express_get_theme_option('site_logo'); ?>
 					<?php if( $site_logo ) : ?>
 						<img src="<?php echo esc_url( $site_logo ); ?>" title="<?php bloginfo('name'); ?>">

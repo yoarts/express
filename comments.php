@@ -7,7 +7,7 @@ if ( post_password_required() ) {
 <div id="comments" class="comments-area">
 	<?php if ( have_comments() ) : ?>
 		<h3 class="comments-title">
-			<?php comments_number( '0 comment', '1 comment', '% comments' ); ?>
+			<?php comments_number( __( '0 comments', 'express' ), __( '1 comment', 'express' ), __( '% comments', 'express' ) ); ?>
 		</h3>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
